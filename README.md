@@ -42,4 +42,15 @@ Click Next.
 * Review Settings and Click Submit
 * Wait few minutes for the environment to be launched.![Screenshot (782)](https://github.com/user-attachments/assets/34ccefa5-bdfa-4857-801a-adf1ec738a17)
 * The above creates underlying Instance ![Screenshot (783)](https://github.com/user-attachments/assets/b9ce03e9-aa92-4233-97b4-c12d05bdc603)
-
+**Configure the Elastic Beanstalk Environment**
+* Load Balancer and Auto-scaling Configuration (optional):
+  1.  Once your environment is up and running, click on Configuration in the left menu.
+  2.  Under Instance traffic and Scaling click Edit to adjust the number of instances in the auto-scaling group under Capacity. You can configure the minimum and maximum number of instances.
+  3.  Under Load Balancer, you can adjust settings like enabling sticky sessions or switching between Application Load Balancer and Classic Load Balancer. 
+**Access Your Application**
+* Once Elastic Beanstalk finishes deploying your app, it will provide a URL. You can find this in the Environment Dashboard under Environment URL.
+* Open the URL to access your application.
+**Manage Your Application: Deploy New Versions:**
+* If you make changes to your application code and need to redeploy, go back to the Elastic Beanstalk console.
+* In your environment dashboard, click Upload and Deploy.
+* Upload the new version of your application zip file, then click Deploy.

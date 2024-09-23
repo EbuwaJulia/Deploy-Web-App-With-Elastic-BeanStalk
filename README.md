@@ -40,5 +40,6 @@ Click Next.
 * Optionally unselect Activated Managed Updates
 * Scroll down and Click on Next.
 * Review Settings and Click Submit
-* Wait few minutes for the environment to be launched.
-*  
+* Wait few minutes for the environment to be launched.![Screenshot (782)](https://github.com/user-attachments/assets/34ccefa5-bdfa-4857-801a-adf1ec738a17)
+* The above creates underlying Instance ![Screenshot (783)](https://github.com/user-attachments/assets/b9ce03e9-aa92-4233-97b4-c12d05bdc603)
+

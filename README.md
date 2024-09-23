@@ -12,7 +12,7 @@ AWS Elastic Beanstalk is a platform-as-a-service (PaaS) that allows you to deplo
 * Upload the zip file that contains your web application.Scroll to the bottom and Click Next ![Screenshot (781)](https://github.com/user-attachments/assets/2c064f84-afbd-4c11-abb3-03ecb19a305d)
 **Configure Service Access**
 * Create and use a new Service Role or Use an existing role or use the default role; aws-elasticebeanstalk-service-role
-* Choose an EC2 key pair if available
+* Choose an EC2 key pair.
 **EC2 Instance Profile**
 This is very important in the deployment process. If this is not correctly configured, the deployment process would throw an error at the end. below are the steps to creating an EC2 Instance profile.
 **Preferably open AWS Management Console in a new tab to set up Instance Profile to avoid cancelling the progress thus far**
@@ -32,4 +32,13 @@ Click Next.
 * Return to the previous tab, refresh and select the IAM Role created for Instance Profile and Click Next.
 * Optionally Set up networking, database, and tags or Select the Defaults.
 * Scroll down and Click Next.
-* 
+**Configure instance traffic and scaling**
+* Instances and CloudWatch monitoring should be left as Default
+* Under EC2 Security groups, Select an EC2 security that you have configured to allow incoming traffic on ports 80, 443, 22 and 8080.
+* Scroll down and click Next.
+* Under Health Reporting System, Select Basic
+* Optionally unselect Activated Managed Updates
+* Scroll down and Click on Next.
+* Review Settings and Click Submit
+* Wait few minutes for the environment to be launched.
+*  

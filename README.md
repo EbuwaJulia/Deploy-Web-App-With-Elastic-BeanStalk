@@ -1,2 +1,2 @@
 # Deploy-Web-App-With-Elatic-BeanStalk
-AWS Elastic Beanstalk can be used to quickly deploy and manage applications in the AWS Cloud. Developers upload applications and Elastic Beanstalk handles the deployment details of capacity provisioning, load balancing, auto-scaling, and application health monitoring.
+AWS Elastic Beanstalk is a platform-as-a-service (PaaS) that allows you to deploy and manage web applications without worrying about the underlying infrastructure. It automatically handles tasks like provisioning servers, load balancing, scaling, and monitoring. Elastic Beanstalk supports multiple languages, including Python, Node.js, Java, Ruby, .NET, and PHP.
